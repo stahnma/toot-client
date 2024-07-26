@@ -1,0 +1,140 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "ruby": {
+        "pkg-path": "ruby"
+      }
+    },
+    "vars": {},
+    "hook": {
+      "on-activate": "  unset CPATH\n  bundle config set --local path 'vendor'\n  export PATH=\"$FLOX_ENV_PROJECT/vendor/ruby/3.1.0/bin:$PATH\"\n  alias toot='bundle exec client.rb'\n  echo \"Welcome to the Toot 🐘 client environment! \"\n "
+    },
+    "profile": {
+      "common": "   alias toot='bundle exec client.rb'\n\n "
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "ruby",
+      "broken": false,
+      "derivation": "/nix/store/irsmlmgn7aznps66nmdmf0kw05rr67np-ruby-3.1.5.drv",
+      "description": "Object-oriented language for quick and easy programming",
+      "install_id": "ruby",
+      "license": "Ruby",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "ruby-3.1.5",
+      "pname": "ruby",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "unfree": false,
+      "version": "3.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "devdoc": "/nix/store/3z0p2yyqv42bgnwy4ss5pzav7xch8gl5-ruby-3.1.5-devdoc",
+        "out": "/nix/store/zy16nkybzj7armp9bs6wy9y29wjbr94s-ruby-3.1.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ruby",
+      "broken": false,
+      "derivation": "/nix/store/gdy2p9z6mrszjhnczgm7j95xrq9izf72-ruby-3.1.5.drv",
+      "description": "Object-oriented language for quick and easy programming",
+      "install_id": "ruby",
+      "license": "Ruby",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "ruby-3.1.5",
+      "pname": "ruby",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "unfree": false,
+      "version": "3.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "devdoc": "/nix/store/1mi8n898wxlizvff4r6p0p5pkkascbs9-ruby-3.1.5-devdoc",
+        "out": "/nix/store/5jajwwca24sjfz1d8mqjh8hbgdg0gic6-ruby-3.1.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ruby",
+      "broken": false,
+      "derivation": "/nix/store/qwdvlahj0j93vidqy25mi4xsjvkn4n4v-ruby-3.1.5.drv",
+      "description": "Object-oriented language for quick and easy programming",
+      "install_id": "ruby",
+      "license": "Ruby",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "ruby-3.1.5",
+      "pname": "ruby",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "unfree": false,
+      "version": "3.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "devdoc": "/nix/store/qrw450p81an9s8g3q6ccd9rq7sazzcg7-ruby-3.1.5-devdoc",
+        "out": "/nix/store/5msv7q4h1ww6rcmy9n8jckif1x1n4fsb-ruby-3.1.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ruby",
+      "broken": false,
+      "derivation": "/nix/store/inrlr6zn5g67rb09gi66aw3i75vi9bi2-ruby-3.1.5.drv",
+      "description": "Object-oriented language for quick and easy programming",
+      "install_id": "ruby",
+      "license": "Ruby",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "ruby-3.1.5",
+      "pname": "ruby",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-26T01:12:46Z",
+      "unfree": false,
+      "version": "3.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "devdoc": "/nix/store/w7hf2z0vjb4y03414cv4x4bg6spmc4id-ruby-3.1.5-devdoc",
+        "out": "/nix/store/fsym6fc0v8njmvf9gydy21vi9ph3c9fr-ruby-3.1.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
