@@ -9,6 +9,9 @@ version = 1
 # the `[install]` section.
 [install]
 ruby.pkg-path = "ruby"
+openssl.pkg-path = "openssl"
+gnumake.pkg-path = "gnumake"
+clang.pkg-path = "clang"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^18.4.2", pkg-path = "nodejs_18" }
 
